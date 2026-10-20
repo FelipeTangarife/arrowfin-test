@@ -1,0 +1,30 @@
+{
+  "name": "arrowfin-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -n api,web \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "test": "npm test -w backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://FelipeTangarife@github.com/FelipeTangarife/arrowfin-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FelipeTangarife/arrowfin-test/issues"
+  },
+  "homepage": "https://github.com/FelipeTangarife/arrowfin-test#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  },
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "private": "true"
+}
