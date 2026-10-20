@@ -16,6 +16,6 @@ The frontend reaches the API through a Next rewrite at `/api`, so there is no CO
 
 ## Docs
 
-- [API.md](API.md): the `GET /candles` contract, response shape and errors.
+- [backend/API.md](backend/API.md): the `GET /candles` contract, response shape and errors.
 - [DECISIONS.md](DECISIONS.md): prompts used and the main decisions.
 - [REVIEW.md](REVIEW.md): Part 3 code review.
